@@ -3,7 +3,7 @@ const moment = require('moment');
 moment.locale('pt-BR');
 
 module.exports = async (bot, member) => {
-	const canal = member.guild.channels.cache.get('764504459362566144');
+	const canal = member.guild.channels.cache.get('ID DO CANAL AQUI');
 
 	const embed = new Discord.MessageEmbed()
 		.setTitle('SEJA BEM-VINDO!')
